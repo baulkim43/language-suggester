@@ -23,7 +23,7 @@ $(document).ready(function() {
       var match = "(Nothing! Don't forget to fill out the answers above..)"
       $("img").hide();
     }
-    
+
     $("#code").text(match);
     $("#match").show();
     event.preventDefault();

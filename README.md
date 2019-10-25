@@ -20,11 +20,11 @@ _Feel free to e-mail baul.kim43@gmail.com with any issues, questions, ideas or c
 
 ## Technologies Used
 
-_HTML_
-_CSS_
-_Bootstrap_
-_Javascript_
-_jQuery_
+* _HTML_
+* _CSS_
+* _Bootstrap_
+* _Javascript_
+* _jQuery_
 
 ## License
 
