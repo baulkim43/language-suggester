@@ -1,11 +1,12 @@
 .container-fluid {
   text-align: center;
   display: inline-block;
+  padding-top: 30 px;
 }
 
 
 .btn {
-  background-color: #555555
+  background-color: #f44336;
   color: black;
   border: none;
   padding: 15px 32px;
