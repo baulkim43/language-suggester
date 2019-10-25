@@ -6,9 +6,14 @@ $(document).ready(function() {
     var animal = $("select#animal").val();
     var food = $("select#food").val();
 
-    if (age <= 15) {
+    if (age <= 30) {
       var match = "Ruby";
-    } else if 
+    } else if (age > 30 && animal === "dog") {
+      var match = "Python";
+    } else if (age < 200 && pants >= 3 || food === "burger") {
+      var match = "Javascript"
+    }
+
 
     $("#code").text(match);
     $("#match").show()
