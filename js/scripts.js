@@ -12,7 +12,7 @@ $(document).ready(function() {
       var match = "Ruby";
     } else if (age > 30) {
       var match = "Javascript"
-    } else {
+    } else if (!age || !devices || !pants) {
       alert('Please enter all information.');
       var match = "(Nothing! Don't forget to fill out the answers above..)"
 
