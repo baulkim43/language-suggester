@@ -8,10 +8,16 @@ $(document).ready(function() {
 
     if (age <= 30 && animal !== "dog" && food === "burger") {
       var match = "Python";
+      $("img").hide();
+      $("#pythonpic").show();
     } else if (pants >= 3 || devices >= 3) {
       var match = "Ruby";
+      $("img").hide();
+      $("#rubypic").show();
     } else if (age > 30) {
       var match = "Javascript"
+      $("img").hide();
+      $("#javascriptpic").show();
     } else if (!age || !devices || !pants) {
       alert('Please enter all information.');
       var match = "(Nothing! Don't forget to fill out the answers above..)"
@@ -20,7 +26,11 @@ $(document).ready(function() {
 
 
     $("#code").text(match);
-    $("#match").show()
+    $("#match").show();
+
+
+
+
 
 
     event.preventDefault();

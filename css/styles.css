@@ -2,6 +2,18 @@
   display: block;
 }
 
+#rubypic {
+  display: none;
+}
+
+#pythonpic {
+  display: none;
+}
+
+#javascriptpic {
+  display: none;
+}
+
 #match {
   display: none;
 }
