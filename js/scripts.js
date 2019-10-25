@@ -6,12 +6,16 @@ $(document).ready(function() {
     var animal = $("select#animal").val();
     var food = $("select#food").val();
 
-    if (age < 200 && pants >= 3 && food === "burger") {
-      var match = "Ruby";
-    } else if (age <= 30 && animal !== "dog") {
+    if (age <= 30 && animal !== "dog" && food === "burger") {
       var match = "Python";
-    } else if (age <= 30) {
+    } else if (pants >= 3 || devices >= 3) {
+      var match = "Ruby";
+    } else if (age > 30) {
       var match = "Javascript"
+    } else {
+      alert('Please enter all information.');
+      var match = "(Nothing! Don't forget to fill out the answers above..)"
+
     }
 
 
