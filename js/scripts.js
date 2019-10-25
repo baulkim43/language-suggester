@@ -22,6 +22,7 @@ $(document).ready(function() {
       alert('Please enter all information.');
       var match = "(Nothing! Don't forget to fill out the answers above..)"
       $("img").hide();
+      $("#codegif").show();
     }
 
     $("#code").text(match);
